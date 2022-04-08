@@ -1,0 +1,82 @@
+<html>
+<head>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script>
+  function SubForm (){
+      $.ajax({
+          url:'https://api.apispreadsheets.com/data/9BxU2Qz6KrJQbmON/',
+          type:'post',
+          data:$("#myForm").serializeArray(),
+          success: function(){
+            alert("Form Data Submitted :)")
+          },
+          error: function(){
+            alert("There was an error :(")
+          }
+      });
+  }
+  </script>
+<title>Welpers Website</title>
+<link rel="stylesheet" href="CSS_code.css">
+<body class="master">
+  <div style="display:block; width:100%;">
+
+     <nav>
+       <h3 class="font4">
+         <a href="Test%20website.html">Main|</a>
+         <a href="Image_1.html">Cookbook|</a>
+         <a href="Testing.html">Testing|</a>
+         <a href="Forms.html">Request or suggest a change |</a>
+         <a href="about_welper.html">About Welper|</a>
+       </h3>
+     </nav>
+<marquee class="marq" bgcolor = "00155b" height=100px scrollamount="45" direction = "right" >
+<div class="font1">
+Welpers Website
+</div>
+<div class="font2">
+<hpink>
+It is cool tbh
+</hpink>
+</div>
+</marquee>
+<form class="form" id="myForm">
+  <label>
+    Name
+  </label>
+  <br/>
+  <input class="label" name="full_name" />
+  <br/>
+  <label>Email</label>
+  <br/>
+  <input class="label" name="email" />
+  <br/>
+  <label>Message</label>
+  <br/>
+  <textarea class="label" name="message">
+  </textarea>
+  <br/>
+  <br/>
+</form>
+<button onclick="SubForm()">Submit</button>
+<h3>
+Links
+<footer>
+<nav>
+<a href="Test%20website.html">Main|</a>
+<a href="Image_1.html">Cookbook|</a>
+<a href="Testing.html">Testing|</a>
+<a href="Forms.html">Request or suggest a change |</a>
+<a href="about_welper.html">About Welper|</a>
+</nav>
+</footer>
+</h3>
+</body>
+</head>
+<!-- marquee calls .marq for the font
+colors are in hex and you cant have U!!!!!
+and this is how you make comment>
+</html>

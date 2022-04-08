@@ -1,0 +1,128 @@
+/*In google fonts,choose @import option and then paste*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@font-face {
+    font-family: 'myfont';
+    src: url('fonts/myfont-regular_2-webfont.woff2') format('woff2'),
+         url('fonts/myfont-regular_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.main {
+    text-align:center;
+}
+.marq {
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.font1 {
+    font-size:50px;
+    font-weight:bold;
+    color:#EB6600;
+    padding-bottom:10px;
+}
+.font2 {
+font-size:30px;
+color:red;
+}
+.font3 {
+  font-size:20px;
+  background-color:#C8FFFF;
+  color:#0DAB12;
+}
+.font4 {
+  font-size:20px;
+  color:#0DAB12;
+}
+.font5 {
+  font-family: 'Merriweather',serif;
+  font-weight: 400;
+  font-size: 20px
+
+}
+.font6 {
+  font-family: 'Merriweather',serif;
+  font-weight: 400;
+  font-size: 20px;
+  background-color:
+}
+.font7 {
+  font-family: 'myfont', serif;
+  font-size: 40px;
+}
+.master {
+  background-color:#C8FFFF;
+  color:#09221F
+}
+.images {
+  background-color:#000000;
+  font-size:30px;
+  color:#A2D729;
+}
+.img {
+  border: 5px solid #FFFFFF
+}
+.center {
+  text-align: center;
+}
+.form {
+text-align:center;
+background-color:#2654B6;
+background-size: auto;
+font-size:40px;
+color:#B3FF00;
+}
+.background {
+  background-color:#B3FF00;
+  background-size: auto;
+}
+.label {
+  background-color:#56C8E7;
+  color:#3D3DBA;
+}
+
+u {
+color:green;
+}
+nav {
+    border: 1px;
+    background-color: #A2D729;
+    color:white;
+    padding: 6px;
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+red {
+color:red;
+}
+orange {
+color:orange;
+}
+yellow {
+color:yellow;
+}
+green {
+color:green;
+}
+blue {
+color:blue;
+}
+pink {
+color:pink;
+}
+indigo {
+color:indigo;
+}
+hpink  {
+color:#db2b39;
+size:20px
+}
+label {
+  color:#db2b39
+}
